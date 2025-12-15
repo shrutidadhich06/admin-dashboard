@@ -1,21 +1,18 @@
-<<<<<<< HEAD
-# React + Vite
+# admin dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic admin dashboard which shows the projects and task to the admin given to the users.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shrutidadhich06/admin-dashboard.git
 
-## React Compiler
+2. Go to the project directory:
+    cd admin-dashboard
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Install dependencies:
+    npm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# admin-dashboard
-this is a frontend assignment
->>>>>>> afd879d5b9fbaf55f5e00c96194776e497fc87e0
+4. Run the development server:
+    npm run dev
